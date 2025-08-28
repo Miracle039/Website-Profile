@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Profile About Me</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link 
+      rel="stylesheet" 
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+    />
+  </head>
+  <body>
+    <div class="min-h-screen flex flex-col md:flex-row border border-purple-600">
+
+      <!-- Left Section -->
+      <div class="w-full md:w-1/2 bg-white flex flex-col items-center justify-center p-10">
+      <img 
+        src="photo1.png" 
+        alt="Profile photo"
+        class="rounded-full mb-6 w-32 sm:w-40 md:w-48 lg:w-56 object-contain"
+      />
+
+
+        <h2 class="text-xl md:text-2xl font-bold mb-6 text-center">
+          Muhammad Nur Ichsan
+        </h2>
+
+        <div class="flex space-x-4 md:space-x-6 text-black text-lg">
+          <!-- Instagram -->
+          <a 
+            href="https://www.instagram.com/mnichsan39?igsh=MWgwaG90a2NwZXRtaA==" 
+            aria-label="Instagram" 
+            class="border border-black rounded-full p-2 flex items-center justify-center w-10 h-10"
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+
+          <!-- Email -->
+          <a 
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=mnichsan0399@gmail.com&body=Hai saya Ichsan, silahkan ketik untuk mengirim pesan ke saya ..." 
+            aria-label="Email" 
+            class="border border-black rounded-full p-2 flex items-center justify-center w-10 h-10"
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <i class="fas fa-envelope"></i>
+          </a>
+
+          <!-- LinkedIn -->
+          <a 
+            href="https://www.linkedin.com/in/muhammad-nur-ichsan-0b2551198" 
+            aria-label="LinkedIn" 
+            class="border border-black rounded-full p-2 flex items-center justify-center w-10 h-10"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Right Section -->
+      <div class="w-full md:w-1/2 bg-gray-400 p-6 md:p-10 flex flex-col justify-center">
+        <h1 class="text-xl md:text-2xl font-extrabold mb-4 text-center md:text-left">About Me</h1>
+        
+        <p class="mb-10 max-w-xl leading-relaxed text-justify text-base md:text-lg">
+          Saya adalah lulusan Universitas Nusantara PGRI Kediri, jurusan Teknik Informatika. 
+          Memiliki pengetahuan dasar dalam bidang teknologi informasi serta pengalaman kerja di 
+          industri pelayanan sebagai Barista. Mampu bekerja dengan baik dalam tim, memiliki komunikasi 
+          yang cukup baik, serta siap untuk terus belajar dan mengembangkan diri di bidang profesional.
+        </p>
+        
+        <button 
+          onclick="window.location.href='pendidikan.html'" 
+          class="bg-gray-900 text-white text-sm md:text-xs font-bold py-2 px-6 md:px-8 w-max mx-auto md:mx-0 rounded-md hover:bg-gray-700"
+        >
+          Resume
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
